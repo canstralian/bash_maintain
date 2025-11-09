@@ -1,0 +1,54 @@
+# Bash Maintain .gitignore
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+*.tar.gz
+*.zip
+
+# Cache
+.cache/
+*.cache
+
+# Environment files
+.env
+.env.local
+
+# Test coverage
+coverage/
+.coverage
+*.coveragerc
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Output files
+output/
+reports/
+
+# Local configuration
+local.conf
+config.local
